@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meesho Clone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #e72c6a;
+      color: #fff;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      background-color: #fce4ec;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #c2185b;
+    }
+
+    .hero p {
+      margin-bottom: 20px;
+    }
+
+    .cta {
+      padding: 10px 20px;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .categories {
+      padding: 40px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .categories h2 {
+      margin-bottom: 20px;
+    }
+
+    .category-grid {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .category {
+      background-color: #f8bbd0;
+      padding: 20px 30px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .products {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    .products h2 {
+      margin-bottom: 20px;
+    }
+
+    .product-grid {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .product-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      width: 200px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .product-card h3 {
+      margin: 10px 0;
+    }
+
+    .download-banner {
+      background-color: #fce4ec;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eeeeee;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Meesho</div>
+    <nav>
+      <a href="#">Women</a>
+      <a href="#">Men</a>
+      <a href="#">Home</a>
+      <a href="#">Electronics</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Start your business with Zero Investment</h1>
+    <p>Trusted by over 1 crore resellers in India</p>
+    <button class="cta">Download App</button>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h2>Top Categories to Choose From</h2>
+    <div class="category-grid">
+      <div class="category">Sarees</div>
+      <div class="category">Jewellery</div>
+      <div class="category">Kitchen</div>
+      <div class="category">Shoes</div>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product">
+        <h3>Stylish Kurti</h3>
+        <p>₹399</p>
+        <button>Share</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product">
+        <h3>Trendy Earrings</h3>
+        <p>₹149</p>
+        <button>Share</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product">
+        <h3>Casual Shoes</h3>
+        <p>₹799</p>
+        <button>Share</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download App Banner -->
+  <section class="download-banner">
+    <h2>Download Meesho App Now</h2>
+    <button class="cta">Download</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Meesho Clone. Built for demo purposes.</p>
+  </footer>
+
+</body>
+</html>
